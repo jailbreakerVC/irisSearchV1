@@ -1,0 +1,148 @@
+:root {
+  font-family: roboto;
+}
+a {
+  text-decoration: none;
+  color: #609ceb;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+button {
+  border-radius: 0px;
+  border: 1px solid transparent;
+  padding: 0.9em 1em;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: inherit;
+  background-color: #13131454;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
+}
+
+h1 {
+  position: relative;
+  font-size: 2em;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.searchContainer {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 272px;
+  height: 92px;
+  background-image: url("src/assets/owasp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.irisheading {
+  margin-top: 10px;
+  font-family: roboto;
+  font-size: 200%;
+  font-weight: 300;
+  font-style: normal;
+  /* padding-bottom: 30px; */
+}
+
+.topcontainer {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  /* max-width: 100%;
+  align-items: center;
+  text-align: center; */
+  /* overflow: hidden; */
+  /* position: fixed; */
+  /* padding-left: 100px; */
+}
+
+/* .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  background-color: #13131454;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: inherit;
+  /* border-bottom: 1px solid #eaeaea; */
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}
+.center {
+  padding-top: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.SearchResult {
+  text-align: justify;
+}
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  padding-right: 125px;
+  height: 100vh;
+  text-align: justify;
+  font-size: small;
+}
+
+.subline {
+  font-style: italic;
+}
+.titlesearch {
+  padding-top: 13em;
+  position: relative;
+  top: 40%;
+  align-items: center;
+  text-align: center;
+  /* transform: translateY(-50%); */
+  text-align: center;
+}
+.textinput {
+  padding-top: 50px;
+}
+
+img {
+  border-color: black;
+
+  height: auto;
+  width: 500px;
+}
+
+.googlesearchbar {
+  padding-top: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
